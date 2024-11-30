@@ -66,33 +66,6 @@ Ensure you have the following:
 
 ---
 
-## Project Structure
-
-```plaintext
-secure-file-encryption/cryptosentinel/
-├── README.md               # Project overview and documentation
-├── LICENSE                 # License information
-├── .gitignore              # Git ignore file
-├── requirements.txt        # Project dependencies
-├── main.py                 # Entry point for the program
-├── encryption/             # Core encryption and decryption logic
-│   ├── __init__.py         # Package initializer
-│   ├── encryptor.py        # File encryption module
-│   ├── decryptor.py        # File decryption module
-│   ├── utils.py            # Helper functions
-├── tests/                  # Unit tests
-│   ├── test_encryptor.py   # Tests for encryption
-│   ├── test_decryptor.py   # Tests for decryption
-├── examples/               # Example files for testing
-│   ├── example.txt         # Example plaintext file
-│   ├── example.enc         # Example encrypted file
-└── docs/                   # Documentation
-    ├── project_overview.md # Detailed project overview
-    ├── usage_guide.md      # Usage instructions
-```
-
----
-
 ## Examples
 
 ### Example File Encryption
